@@ -1,0 +1,121 @@
+.navigation {
+    position: sticky;
+}
+
+.video {
+    width: 70%;
+    border-radius: 15px;
+}
+
+.anothervideos {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+video {
+    width: 100%;
+    border-radius: 15px;
+}
+
+video::-webkit-media-controls-download-button {
+    display: none;
+}
+
+.desc {
+    padding: 20px;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f {
+    width: 15%;
+}
+
+.s,
+.t {
+    width: 30%;
+}
+
+.f1 {
+    width: 15%;
+}
+
+.f2 {
+    width: 72.5%;
+}
+
+.f2 button {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid rgb(32, 32, 32);
+    background: transparent;
+    cursor: pointer;
+    border-radius: 9px;
+    transition: 0.3s all ease;
+    font-size: 1.2rem;
+}
+
+.f2 button:hover {
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.f2 .l {
+    width: 10%;
+    float: left;
+    margin-right: 5px;
+}
+
+.f2 .r {
+    margin-left: 5px;
+    width: 85%;
+    float: right;
+}
+
+.img_ins {
+    border-radius: 50%;
+}
+
+.r h3,
+.r h4 {
+    padding: 2px;
+    margin: 0;
+}
+
+.f-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.heart {
+    font-size: 2rem;
+    color: gray;
+    border: 2px solid gray;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 47%;
+    transition: border-color 0.1s, color 0.1s;
+}
+
+.heart.clicked {
+    border-color: rgb(209, 55, 55);
+    color: rgb(241, 7, 7);
+}

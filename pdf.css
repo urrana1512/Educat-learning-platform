@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: -30px;
+  width: 90%;
+}
+.topcer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topcer p{
+  text-align: end;
+  font-weight: bold;
+  color: rgb(36, 36, 36);
+}
